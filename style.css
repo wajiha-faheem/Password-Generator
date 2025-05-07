@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to right, #f5f5ff, #ececff);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px 25px;
+    border-radius: 20px;
+    width: 320px;
+    box-shadow: 0 8px 25px rgba(147, 112, 219, 0.2);
+    text-align: center;
+    border: 2px solid #d8b4f8;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #8a2be2;
+    font-size: 24px;
+  }
+  
+  .output-box {
+    display: flex;
+    margin-bottom: 15px;
+    border: 1.5px solid #d8b4f8;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .output-box input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    background: #faf8ff;
+    color: #8a2be2;
+    border: none;
+    outline: none;
+  }
+  
+  .output-box button {
+    background: #d8b4f8;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .output-box button:hover {
+    background: #b88bd1;
+  }
+  
+  .settings {
+    text-align: left;
+    margin: 15px 0;
+    font-size: 14px;
+    color: #4b0082;
+  }
+  
+  .settings label {
+    display: block;
+    margin: 6px 0;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    padding: 4px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  .generate {
+    background: #b88bd1;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+    font-size: 15px;
+  }
+  
+  .generate:hover {
+    background: #9f6cbf;
+  }
+  
